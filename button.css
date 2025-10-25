@@ -1,0 +1,24 @@
+.re-btn {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+}
+
+.re-btn:active {
+  transform: translateY(1px);
+}
+
+.re-btn-primary {
+  background: linear-gradient(180deg,#4a6cff,#3a58d9);
+  color: white;
+}
+
+.re-btn-secondary {
+  background: transparent;
+  border: 1px solid #ddd;
+  color: #333;
+}

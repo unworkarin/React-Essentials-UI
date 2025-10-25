@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>React Essentials UI — Demo</title>
+    <link rel="stylesheet" href="dist/styles.css" />
+  </head>
+  <body style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; padding:24px; background:#f6f7fb;">
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script type="text/javascript">
+      const e = React.createElement;
+      function App() {
+        return e('div', {style:{maxWidth:760}}, 
+          e('h1', null, 'React Essentials UI — Demo'),
+          e('div', null, 
+            e('div', {dangerouslySetInnerHTML:{__html: '<div style="margin-bottom:12px"><button class="re-btn re-btn-primary">Primary</button> <button class="re-btn re-btn-secondary">Secondary</button></div>'}})
+          ),
+          e('div', null, '<div style="background:white;padding:12px;border-radius:8px;">Card demo</div>')
+        );
+      }
+      ReactDOM.render(e(App), document.getElementById('root'));
+    </script>
+  </body>
+</html>

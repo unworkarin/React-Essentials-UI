@@ -1,0 +1,87 @@
+.re-btn {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.08s ease, box-shadow 0.08s ease;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+}
+
+.re-btn:active {
+  transform: translateY(1px);
+}
+
+.re-btn-primary {
+  background: linear-gradient(180deg,#4a6cff,#3a58d9);
+  color: white;
+}
+
+.re-btn-secondary {
+  background: transparent;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.re-card {
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(20,20,40,0.04);
+  background: white;
+  border: 1px solid rgba(0,0,0,0.04);
+  overflow: hidden;
+  max-width: 720px;
+}
+
+.re-card-header {
+  font-weight: 600;
+  padding: 12px 16px;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+  background: linear-gradient(180deg, rgba(250,250,252,1), white);
+}
+
+.re-card-body {
+  padding: 16px;
+}
+
+.re-card-footer {
+  padding: 12px 16px;
+  border-top: 1px solid rgba(0,0,0,0.04);
+  font-size: 13px;
+  color: #666;
+}
+
+.re-input-label {
+  display: block;
+  margin-bottom: 12px;
+  font-family: inherit;
+}
+
+.re-input-label-text {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.re-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+}
+
+.re-input:focus {
+  box-shadow: 0 0 0 4px rgba(74,108,255,0.08);
+  border-color: #4a6cff;
+}
+
+.re-input-error {
+  border-color: #e85a4f;
+}
+
+.re-input-error-text {
+  margin-top: 6px;
+  color: #e85a4f;
+  font-size: 13px;
+}

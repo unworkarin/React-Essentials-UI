@@ -1,0 +1,35 @@
+.re-input-label {
+  display: block;
+  margin-bottom: 12px;
+  font-family: inherit;
+}
+
+.re-input-label-text {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.re-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 14px;
+}
+
+.re-input:focus {
+  box-shadow: 0 0 0 4px rgba(74,108,255,0.08);
+  border-color: #4a6cff;
+}
+
+.re-input-error {
+  border-color: #e85a4f;
+}
+
+.re-input-error-text {
+  margin-top: 6px;
+  color: #e85a4f;
+  font-size: 13px;
+}
